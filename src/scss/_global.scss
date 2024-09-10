@@ -43,3 +43,9 @@ p.lead {
 .text-primary {
   color: #1e4ab5 !important;
 }
+
+#sideNav {
+    max-height: 100vh; /* Ограничиваем высоту экрана */
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+    padding-right: 1rem; /* Добавляем небольшой отступ, чтобы скролл не накрывал текст */
+}
